@@ -1,12 +1,21 @@
 from dataclasses import dataclass
 
 import cv2
-from screeninfo import get_monitors
+from screeninfo import ScreenInfoError, get_monitors
 
 from src.logger import logger
 from src.utils.image import ImageUtils
 
-monitor_window = get_monitors()[0]
+try:
+    monitor_window = get_monitors()[0]
+except (ScreenInfoError, IndexError):
+    # Headless hosts like Railway don't expose a display; fall back to a
+    # sensible virtual canvas so importing OMRChecker does not crash.
+    class _HeadlessMonitor:
+        width = 1920
+        height = 1080
+
+    monitor_window = _HeadlessMonitor()
 
 
 @dataclass
