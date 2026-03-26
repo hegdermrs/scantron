@@ -1,0 +1,14 @@
+.env
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Local debug and generated artifacts
+debug-*.jpg
+response.json
+training_rows/
+
+# OS/editor noise
+.DS_Store
+Thumbs.db

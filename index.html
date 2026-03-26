@@ -1,0 +1,180 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Scantron OMR Upload</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;700&family=Instrument+Serif:ital@0;1&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="./styles.css">
+</head>
+<body>
+  <div class="page-shell">
+    <header class="hero">
+      <p class="eyebrow">Student OMR Portal</p>
+      <h1>Upload or snap your OMR sheet.</h1>
+      <p class="hero-copy">
+        Choose a clear photo of your sheet, preview it, and submit it for checking.
+      </p>
+    </header>
+
+    <main class="grid">
+      <section class="panel">
+        <div class="panel-header">
+          <h2>OMR Submission</h2>
+          <p>Upload an image from your device or use the camera to take a fresh photo.</p>
+        </div>
+
+        <form id="omr-form" class="stack" novalidate>
+          <section class="capture-card">
+            <div class="capture-header">
+              <div>
+                <h3>Choose OMR Sheet</h3>
+                <p>Use gallery upload or open the camera on mobile.</p>
+              </div>
+              <label class="file-picker">
+                <input id="file-input" type="file" accept="image/*" capture="environment">
+                <span>Select Image</span>
+              </label>
+            </div>
+
+            <div class="camera-controls">
+              <button id="start-camera" class="secondary-button" type="button">Open Camera</button>
+              <button id="capture-photo" class="secondary-button" type="button" disabled>Capture Photo</button>
+              <button id="stop-camera" class="ghost-button" type="button" disabled>Close Camera</button>
+            </div>
+
+            <div class="camera-stage">
+              <video id="camera-feed" playsinline muted hidden></video>
+              <canvas id="capture-canvas" hidden></canvas>
+              <div id="camera-placeholder" class="camera-placeholder">
+                Camera preview will appear here.
+              </div>
+            </div>
+          </section>
+
+          <button id="submit-button" class="primary-button" type="submit" disabled>
+            Send OMR Sheet
+          </button>
+        </form>
+      </section>
+
+      <section class="panel preview-panel">
+        <div class="panel-header">
+          <h2>Live Preview</h2>
+          <p>Check that the full sheet is visible before you submit.</p>
+        </div>
+
+        <div id="preview-empty" class="preview-empty">
+          No image selected yet.
+        </div>
+
+        <div id="preview-card" class="preview-card" hidden>
+          <img id="preview-image" alt="Selected OMR sheet preview">
+          <div class="preview-meta">
+            <div>
+              <span class="meta-label">File</span>
+              <strong id="preview-name">-</strong>
+            </div>
+            <div>
+              <span class="meta-label">Size</span>
+              <strong id="preview-size">-</strong>
+            </div>
+            <div>
+              <span class="meta-label">Source</span>
+              <strong id="preview-source">-</strong>
+            </div>
+          </div>
+        </div>
+
+        <div id="status-box" class="status-box status-idle" role="status" aria-live="polite">
+          Waiting for a sheet image.
+        </div>
+
+        <div class="hint-card">
+          <h3>Tips For Best Results</h3>
+          <p>Before submitting, make sure:</p>
+          <ul>
+            <li>the entire OMR sheet is visible</li>
+            <li>the image is bright and not blurry</li>
+            <li>there are no fingers or shadows covering bubbles</li>
+          </ul>
+        </div>
+      </section>
+    </main>
+
+    <section id="results-page" class="results-page" hidden>
+      <div class="panel results-hero">
+        <div class="results-hero-copy">
+          <p class="eyebrow">Result Report</p>
+          <h2 id="result-summary">Your processed OMR result will appear here.</h2>
+          <p id="result-notes" class="hero-copy compact-copy">Detailed scoring and detected answers will appear below.</p>
+        </div>
+        <div class="results-hero-score">
+          <span class="meta-label">Composite</span>
+          <strong id="result-score">-</strong>
+          <span id="result-percent" class="score-caption">-</span>
+        </div>
+      </div>
+
+      <div class="results-layout">
+        <section class="panel results-panel">
+          <div class="panel-header">
+            <h2>Submission Details</h2>
+            <p>High-level status, source metadata, and grading confidence.</p>
+          </div>
+
+          <div class="result-stats results-stats-wide">
+            <div class="test-meta-item">
+              <span class="meta-label">Submission ID</span>
+              <strong id="result-submission-id">-</strong>
+            </div>
+            <div class="test-meta-item">
+              <span class="meta-label">Test Code</span>
+              <strong id="result-test-code">-</strong>
+            </div>
+            <div class="test-meta-item">
+              <span class="meta-label">Status</span>
+              <strong id="result-status">-</strong>
+            </div>
+            <div class="test-meta-item">
+              <span class="meta-label">Method</span>
+              <strong id="result-method">-</strong>
+            </div>
+            <div class="test-meta-item">
+              <span class="meta-label">Confidence</span>
+              <strong id="result-confidence">-</strong>
+            </div>
+            <div class="test-meta-item">
+              <span class="meta-label">Page Found</span>
+              <strong id="result-page-found">-</strong>
+            </div>
+          </div>
+        </section>
+
+        <section class="panel results-panel">
+          <div class="panel-header">
+            <h2>Section Scores</h2>
+            <p>Official ACT section scales and raw totals for this form.</p>
+          </div>
+          <div id="section-scores" class="section-scores" hidden></div>
+          <div id="section-scores-empty" class="field-hint">Section scores will appear after grading.</div>
+        </section>
+      </div>
+
+      <section class="panel results-panel">
+        <div class="panel-header">
+          <h2>Detected Answers</h2>
+          <p>Every detected answer from the uploaded sheet.</p>
+        </div>
+        <div id="answers-empty" class="field-hint">No answers to show yet.</div>
+        <div id="answers-grid" class="answers-grid" hidden></div>
+      </section>
+    </section>
+  </div>
+
+  <script src="./config.js"></script>
+  <script src="./script.js"></script>
+</body>
+</html>

@@ -1,0 +1,570 @@
+©2025 by ACT Education Corp. All rights reserved. Page 72 of 82 QU00002.CJ19373
+How to Score the Practice 
+Multiple-Choice Tests
+Follow the instructions below and on the 
+following pages to score your practice multiple-
+choice tests and review your performance. 
+To calculate your writing score, use Scoring the 
+Practice Writing Test, page 78.
+Raw Scores
+The number of questions you answered correctly 
+on each test section is a raw score. Because there 
+are many forms of the ACT, each with different 
+questions, the difficulty level varies between 
+the forms. A raw score of 35 on one form of the 
+mathematics test section, for example, may be 
+about as difficult to earn as a raw score of 37 on 
+another form of that test section.
+Computing raw scores: To compute your raw 
+scores, check your answers with the scoring 
+information in the scoring keys and conversion 
+table, then do the following:
+1. Mark a one (1) in the blank for each question 
+answered correctly. 
+2. Count the number of correct answers for 
+each of the multiple-choice test sections. 
+3. Add up the total number correct for each 
+category and test section and capture it as 
+directed beneath its scoring key. 
+Use the scoring key for each test to score 
+your answer document for the sections in the 
+practice test. Mark a “1” in the blank for each 
+question you answered correctly and add up 
+the total number correct for each test. Do 
+not count correct answers for gray cells, as 
+those are for field test items not included in 
+converting raw scores to scale scores.  
+Please note, the placement of these field test 
+questions varies across different test forms, 
+and will NOT remain in the same test item slots 
+each test administration. 
+These numbers are your raw scores on the 
+individual multiple-choice test sections. The 
+highest raw score for a given test section is 
+the number of questions included on that test 
+section: 
+ • English: 40
+ • Mathematics: 41
+ • Reading: 27
+ • Science: 34 
+Note: Raw scores are also provided as part 
+of the Summary Report for each test section 
+taken online in TestNav.  
+Scale Scores
+To adjust for the small differences among 
+different forms of the ACT test, raw scores are 
+converted into scale scores. Scale scores appear 
+on reports sent to your school.
+When your raw scores are converted into 
+scale scores, it becomes possible to compare 
+your scores with those of examinees who took 
+different test forms. For example, a scale score 
+of 26 on the mathematics test section has the 
+same meaning for any form of the ACT.
+Converting Raw Scores to Scale Scores: Each 
+ACT test section generates a single scale 
+score between 1 and 36. Use the scale score 
+conversion table to convert your raw scores to 
+scale scores for each test section.
+
+©2025 by ACT Education Corp. All rights reserved. Page 73 of 82 QU00002.CJ19373
+English Scoring Key
+English 
+Number
+Correct 
+Answer
+Correct 
+(Mark 1)
+Reporting 
+Categories
+1 C CSE
+2 G CSE
+3 A POW
+4 F POW
+5 A CSE
+6 F KLA
+7 D KLA
+8 J CSE
+9 B CSE
+10 G KLA
+11 B CSE
+12 J CSE
+13 C KLA
+14 H POW
+15 D POW
+16 J CSE
+17 D KLA
+18 H POW
+19 A KLA
+20 J POW
+21 A CSE
+22 F CSE
+23 C POW
+24 H POW
+25 D POW
+26 G POW
+27 D CSE
+28 F CSE
+29 A CSE
+30 G POW
+31 C CSE
+32 F POW
+33 A CSE
+34 H KLA
+35 A POW
+36 G POW
+37 B POW
+38 H CSE
+39 D KLA
+40 J CSE
+41 A Not Scored ——
+42 G Not Scored ——
+43 D Not Scored ——
+44 H Not Scored ——
+45 D Not Scored ——
+46 F Not Scored ——
+47 B Not Scored ——
+48 F Not Scored ——
+49 D Not Scored ——
+50 H Not Scored ——
+English Reporting Categories 
+(Capture raw scores/correct answers.)
+Production of Writing (POW) =    of 15
+Knowledge of Language (KLA) =    of 8
+Conventions of Standard  
+English (CSE) =    of 17
+Total English Raw Score  
+(POW + KLA + CSE) =    of 40
+English Scale Score Conversion Table
+Use the Total English Raw Score number 
+from the previous table to find the scale 
+score you could expect if you got that 
+number correct on test day.
+English 
+Raw 
+Score
+English 
+Scale 
+Score 
+40 36
+39 35
+38 35
+37 33
+36 31
+35 29
+34 28
+33 27
+32 26
+31 25
+30 24
+29 23
+28 22
+27 22
+26 21
+25 20
+24 20
+23 19
+22 18
+21 17
+20 16
+English 
+Raw 
+Score
+English 
+Scale 
+Score 
+19 15
+18 15
+17 14
+16 13
+15 13
+14 12
+13 11
+12 11
+11 10
+10 10
+9 10
+8 9
+7 8
+6 7
+5 7
+4 6
+3 5
+2 3
+1 2
+0 1
+English Scale Score =   
+
+©2025 by ACT Education Corp. All rights reserved. Page 74 of 82 QU00002.CJ19373
+Mathematics Scoring Key
+Math 
+Number
+Correct 
+Answer
+Correct 
+(Mark 1)
+Reporting 
+Categories
+1 D IES
+2 J S
+3 B IES
+4 F IES
+5 C A
+6 J N
+7 B Not Scored ——
+8 H N
+9 D A
+10 H IES
+11 B IES
+12 J S
+13 A G
+14 J IES
+15 A A
+16 G Not Scored ——
+17 A A
+18 J N
+19 B F
+20 H G
+21 C IES
+22 G IES
+23 C F
+24 G F
+25 A F
+26 G A
+27 B S
+28 F G
+29 C Not Scored ——
+30 J G
+31 C G
+32 J IES
+33 C IES
+34 G IES
+35 C IES
+36 J S
+37 C A
+38 J IES
+39 C S
+40 J Not Scored ——
+41 D IES
+42 F IES
+43 C IES
+44 J F
+45 A S
+Mathematics Reporting Categories 
+(Capture raw scores/correct answers.)
+Preparing for Higher Math 
+(PHM) (A + F + G + N + S) =    of 25
+A = Algebra
+F = Functions
+G = Geometry
+N = Number & Quantity
+S = Statistics & Probability
+Integrating Essential Skills (IES) =    of 16
+Total Mathematics Raw Score 
+(PHM + IES) =    of 41 
+Mathematics Scale Score Conversion Table
+Use the Total Mathematics Raw Score from 
+the previous table to find the scale score you 
+could expect if you got that number correct 
+on test day.
+Math Raw 
+Score
+Math Scale 
+Score 
+41 36
+40 36
+39 35
+38 34
+37 34
+36 33
+35 32
+34 31
+33 30
+32 29
+31 29
+30 28
+29 27
+28 27
+27 26
+26 25
+25 24
+24 23
+23 22
+22 21
+21 20
+Math Raw 
+Score
+Math Scale 
+Score 
+20 19
+19 19
+18 18
+17 17
+16 17
+15 17
+14 16
+13 16
+12 15
+11 15
+10 15
+9 14
+8 14
+7 13
+6 13
+5 12
+4 11
+3 9
+2 7
+1 5
+0 1
+Mathematics Scale Score =   
+
+©2025 by ACT Education Corp. All rights reserved. Page 75 of 82 QU00002.CJ19373
+Reading Scoring Key
+Reading 
+Number 
+Correct 
+Answer
+Correct 
+(Mark 1)
+Reporting 
+Categories
+1 D Not Scored ——
+2 H Not Scored ——
+3 A Not Scored ——
+4 J Not Scored ——
+5 C Not Scored ——
+6 G Not Scored ——
+7 A Not Scored ——
+8 F Not Scored ——
+9 A Not Scored ——
+10 J CS
+11 B KID
+12 H KID
+13 B CS
+14 J CS
+15 C KID
+16 J KID
+17 C CS
+18 F CS
+19 B KID
+20 H CS
+21 D KID
+22 H KID
+23 A KID
+24 H KID
+25 D IKI
+26 F IKI
+27 B IKI
+28 J IKI
+29 D KID
+30 F CS
+31 A KID
+32 G CS
+33 C KID
+34 J IKI
+35 B KID
+36 H CS
+Reading Reporting Categories 
+(Capture raw scores/correct answers.)
+Key Ideas & Details (KID) =    of 13
+Craft & Structure (CS) =    of 9
+Integration of Knowledge & 
+Ideas (IKI) =    of 5
+Total Reading Raw Score  
+(KID + CS + IKI) =    of 27
+Reading Scale Score Conversion Table
+Use the Total Reading Raw Score from the 
+previous table to find the scale score you 
+could expect if you got that number correct 
+on test day.
+Reading 
+Raw 
+Score
+Reading  
+Scale 
+Score 
+27 36
+26 35
+25 34
+24 32
+23 30
+22 28
+21 26
+20 25
+19 24
+18 23
+17 22
+16 21
+15 20
+14 18
+Reading 
+Raw 
+Score
+Reading  
+Scale 
+Score 
+13 17
+12 16
+11 15
+10 14
+9 13
+8 12
+7 12
+6 11
+5 10
+4 9
+3 7
+2 5
+1 3
+0 1
+Reading Scale Score =   
+
+©2025 by ACT Education Corp. All rights reserved. Page 76 of 82 QU00002.CJ19373
+Science Scoring Key
+Science 
+Number
+Correct 
+Answer
+Correct 
+(Mark 1)
+Reporting 
+Categories
+1 A IOD
+2 F IOD
+3 D IOD
+4 H IOD
+5 D EMI
+6 F EMI
+7 C EMI
+8 J IOD
+9 C EMI
+10 F EMI
+11 C EMI
+12 G EMI
+13 C EMI
+14 H SIN
+15 B SIN
+16 H SIN
+17 B SIN
+18 F SIN
+19 D SIN
+20 F EMI
+21 C SIN
+22 J IOD
+23 C SIN
+24 J IOD
+25 B IOD
+26 J IOD
+27 D IOD
+28 G IOD
+29 D Not Scored ——
+30 J Not Scored ——
+31 C Not Scored ——
+32 J Not Scored ——
+33 D Not Scored ——
+34 F Not Scored ——
+35 B IOD
+36 F SIN
+37 B IOD
+38 G IOD
+39 C IOD
+40 J IOD
+Science Reporting Categories 
+(Capture raw scores/correct answers.)
+Interpretation of Data (IOD) =    of 16
+Scientific Investigation (SIN) =    of 9
+Evaluation of Models, Inferences & 
+Experimental Results (EMI) =    of 9
+Total Science  
+(IOD + SIN + EMI) =    of 34
+Reading Scale Score Conversion Table
+Use the Total Science Raw Score from the 
+previous table to find the scale score you 
+could expect if you got that number correct 
+on test day.
+Science 
+Raw 
+Score
+Science  
+Scale 
+Score 
+34 36
+33 35
+32 34
+31 33
+30 32
+29 31
+28 30
+27 29
+26 28
+25 27
+24 26
+23 25
+22 25
+21 24
+20 23
+19 23
+18 22
+Science 
+Raw 
+Score
+Science  
+Scale 
+Score 
+17 21
+16 20
+15 19
+14 18
+13 18
+12 17
+11 16
+10 15
+9 14
+8 12
+7 12
+6 11
+5 10
+4 9
+3 7
+2 6
+1 3
+0 1
+Science Scale Score =   
+
+©2025 by ACT Education Corp. All rights reserved. Page 77 of 82 QU00002.CJ19373
+Calculating a Composite Score
+This version of Preparing for the ACT is geared 
+towards students taking the “Enhanced ACT”. 
+If you are taking the test on paper prior to 
+September 2025, please refer to the version 
+of the Preparing for the ACT guide labeled 
+2024|2025.  If you are preparing for State and 
+District prior to spring of 2026, you should refer 
+to the Fall 2025 Preparing for the ACT provided 
+by your school. 
+An ACT test generates a single Composite 
+score of 1–36. Compute the Composite score by 
+averaging the three scale scores:
+1. Add your English, Mathematics, and 
+Reading scale scores. Enter this sum in the 
+blanks below. 
+2. Divide the sum by 3. If the resulting number 
+ends in a fraction, round it to the nearest 
+whole number. (Round down any fraction 
+less than one-half, except for averages lower 
+than one; round up any fraction that is one-
+half or more. Also round up averages that 
+are less than one.) 
+3. Enter this number in the blank below. This is 
+your Composite score. 
+Composite of scale scores: 
+English Scale Score =   
+Mathematics Scale Score =   
+Reading Scale Score =   
+Sum of Scale Scores =   
+Composite score (sum ÷ 3) =   
+Note: If you left a test section completely 
+blank and marked no items, do not list a scale 
+score for that section and do not calculate a 
+Composite score.

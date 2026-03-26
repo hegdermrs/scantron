@@ -1,0 +1,271 @@
+{
+  "pageDimensions": [
+    1275,
+    1650
+  ],
+  "bubbleDimensions": [
+    16,
+    16
+  ],
+  "emptyValue": "blank",
+  "outputColumns": [
+    "EN1..50",
+    "M1..45",
+    "R1..36",
+    "S1..40"
+  ],
+  "preProcessors": [
+    {
+      "name": "GaussianBlur",
+      "options": {
+        "kSize": [
+          3,
+          3
+        ],
+        "sigmaX": 0
+      }
+    }
+  ],
+  "fieldBlocks": {
+    "English1": {
+      "fieldType": "QTYPE_MCQ4",
+      "origin": [
+        222,
+        503
+      ],
+      "bubblesGap": 24,
+      "labelsGap": 19.3,
+      "fieldLabels": [
+        "EN1..10"
+      ]
+    },
+    "English2": {
+      "fieldType": "QTYPE_MCQ4",
+      "origin": [
+        398,
+        503
+      ],
+      "bubblesGap": 24,
+      "labelsGap": 19.3,
+      "fieldLabels": [
+        "EN11..20"
+      ]
+    },
+    "English3": {
+      "fieldType": "QTYPE_MCQ4",
+      "origin": [
+        574,
+        503
+      ],
+      "bubblesGap": 24,
+      "labelsGap": 19.3,
+      "fieldLabels": [
+        "EN21..30"
+      ]
+    },
+    "English4": {
+      "fieldType": "QTYPE_MCQ4",
+      "origin": [
+        750,
+        503
+      ],
+      "bubblesGap": 24,
+      "labelsGap": 19.3,
+      "fieldLabels": [
+        "EN31..40"
+      ]
+    },
+    "English5": {
+      "fieldType": "QTYPE_MCQ4",
+      "origin": [
+        926,
+        503
+      ],
+      "bubblesGap": 24,
+      "labelsGap": 19.3,
+      "fieldLabels": [
+        "EN41..50"
+      ]
+    },
+    "Math1": {
+      "fieldType": "QTYPE_MCQ4",
+      "origin": [
+        222,
+        741
+      ],
+      "bubblesGap": 24,
+      "labelsGap": 19.8,
+      "fieldLabels": [
+        "M1..10"
+      ]
+    },
+    "Math2": {
+      "fieldType": "QTYPE_MCQ4",
+      "origin": [
+        398,
+        741
+      ],
+      "bubblesGap": 24,
+      "labelsGap": 19.8,
+      "fieldLabels": [
+        "M11..20"
+      ]
+    },
+    "Math3": {
+      "fieldType": "QTYPE_MCQ4",
+      "origin": [
+        574,
+        741
+      ],
+      "bubblesGap": 24,
+      "labelsGap": 19.8,
+      "fieldLabels": [
+        "M21..30"
+      ]
+    },
+    "Math4": {
+      "fieldType": "QTYPE_MCQ4",
+      "origin": [
+        750,
+        741
+      ],
+      "bubblesGap": 24,
+      "labelsGap": 19.8,
+      "fieldLabels": [
+        "M31..40"
+      ]
+    },
+    "Math5": {
+      "fieldType": "QTYPE_MCQ4",
+      "origin": [
+        926,
+        741
+      ],
+      "bubblesGap": 24,
+      "labelsGap": 19.8,
+      "fieldLabels": [
+        "M41..45"
+      ]
+    },
+    "Reading1": {
+      "fieldType": "QTYPE_MCQ4",
+      "origin": [
+        222,
+        1034
+      ],
+      "bubblesGap": 24,
+      "labelsGap": 20.9,
+      "fieldLabels": [
+        "R1..8"
+      ]
+    },
+    "Reading2": {
+      "fieldType": "QTYPE_MCQ4",
+      "origin": [
+        398,
+        1034
+      ],
+      "bubblesGap": 24,
+      "labelsGap": 20.9,
+      "fieldLabels": [
+        "R9..16"
+      ]
+    },
+    "Reading3": {
+      "fieldType": "QTYPE_MCQ4",
+      "origin": [
+        574,
+        1034
+      ],
+      "bubblesGap": 24,
+      "labelsGap": 20.9,
+      "fieldLabels": [
+        "R17..24"
+      ]
+    },
+    "Reading4": {
+      "fieldType": "QTYPE_MCQ4",
+      "origin": [
+        750,
+        1034
+      ],
+      "bubblesGap": 24,
+      "labelsGap": 20.9,
+      "fieldLabels": [
+        "R25..32"
+      ]
+    },
+    "Reading5": {
+      "fieldType": "QTYPE_MCQ4",
+      "origin": [
+        926,
+        1034
+      ],
+      "bubblesGap": 24,
+      "labelsGap": 20.9,
+      "fieldLabels": [
+        "R33..36"
+      ]
+    },
+    "Science1": {
+      "fieldType": "QTYPE_MCQ4",
+      "origin": [
+        222,
+        1322
+      ],
+      "bubblesGap": 24,
+      "labelsGap": 20.9,
+      "fieldLabels": [
+        "S1..8"
+      ]
+    },
+    "Science2": {
+      "fieldType": "QTYPE_MCQ4",
+      "origin": [
+        398,
+        1322
+      ],
+      "bubblesGap": 24,
+      "labelsGap": 20.9,
+      "fieldLabels": [
+        "S9..16"
+      ]
+    },
+    "Science3": {
+      "fieldType": "QTYPE_MCQ4",
+      "origin": [
+        574,
+        1322
+      ],
+      "bubblesGap": 24,
+      "labelsGap": 20.9,
+      "fieldLabels": [
+        "S17..24"
+      ]
+    },
+    "Science4": {
+      "fieldType": "QTYPE_MCQ4",
+      "origin": [
+        750,
+        1322
+      ],
+      "bubblesGap": 24,
+      "labelsGap": 20.9,
+      "fieldLabels": [
+        "S25..32"
+      ]
+    },
+    "Science5": {
+      "fieldType": "QTYPE_MCQ4",
+      "origin": [
+        926,
+        1322
+      ],
+      "bubblesGap": 24,
+      "labelsGap": 20.9,
+      "fieldLabels": [
+        "S33..40"
+      ]
+    }
+  }
+}
